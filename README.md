@@ -26,7 +26,7 @@ Given a **pcap** capture file named **test.pcap** located in your working direct
 ```
 docker run  --rm --name stf-generator  --user $UID:$GID -v $PWD:$PWD -w $PWD harpomaxx/stf-generator ./test.pcap
 ```
-If everything goes well  two files with the *.biargus* and *.binetflow* extensions and  tab-separated file **test.pcap.tsv**.
+If everything goes well  two files with the *.biargus* and *.binetflow* extensions and  tab-separated file **test.pcap.tsv** looking something like this:
 
 ```
 ModelId	State	LabelName
